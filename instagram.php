@@ -1,5 +1,5 @@
 <?php
-require"./connection";
+require"./connection.php";
 $status = [];
 if(isset($_POST['login'])){
     if(getAccount($_POST) > 0){
